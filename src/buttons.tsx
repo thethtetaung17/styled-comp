@@ -7,9 +7,19 @@ export const CxStyButton = () => {
     return <Button>This is a button!!!</Button>;
 }
 
-export const CxStyBtnPrimary = styled(Button)`
-    variant: contained;
-    color: primary;
+export const CxStyButtonMat = styled(Button)`
+    text-transform: none;
+    font-weight: 700;
+`;
+
+export const CxStyActionButton = styled(({ ...props }) => (
+    <CxStyButtonMat variant="contained" {...props} />
+))`
+    background: #78B0FA;
+    color: #FFFFFF;
+    &:hover {
+        background-color: #9BC2F7;
+    }
 `;
 
 // export const CxStyButton = styled.button`
