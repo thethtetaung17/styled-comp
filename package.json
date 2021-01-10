@@ -1,6 +1,6 @@
 {
     "name": "react-elements-th",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Basic styled react elements such as button, text, select and so on",
     "main": "dist/index.js",
     "module": "dist/index.es.js",
