@@ -1,5 +1,6 @@
 export {
     CxStyButton,
+    CxStyBtnPrimary
     // CxStyActionButton,
     // CxStyCancelButton,
     // CxStyInteractionButton,

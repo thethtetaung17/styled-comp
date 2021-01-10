@@ -1,11 +1,16 @@
 import React from 'react';
-// import styled from 'styled-components';
+import styled from 'styled-components';
 import { Button } from '@material-ui/core';
 // import { ThemeStyle } from '@cx-styled/react-common';
 
 export const CxStyButton = () => {
     return <Button>This is a button!!!</Button>;
 }
+
+export const CxStyBtnPrimary = styled(Button)`
+    variant: contained;
+    color: primary;
+`;
 
 // export const CxStyButton = styled.button`
 //     text-transform: none;
