@@ -27,7 +27,7 @@ const cjsOptions = {
 };
 
 export default {
-  input: "./src/index.ts",
+  input: "./src/index.tsx",
   output: [
     {
       file: packageJson.main,
