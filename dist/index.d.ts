@@ -1,1 +1,1 @@
-export { CxStyButton, } from './buttons';
+export { CxStyButton, CxStyBtnPrimary } from './buttons';
