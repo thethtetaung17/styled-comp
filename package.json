@@ -1,0 +1,29 @@
+{
+    "name": "@cx-styled/react-elements",
+    "version": "0.0.13",
+    "description": "Basic styled react elements such as button, text, select and so on",
+    "main": "dist/index.js",
+    "module": "dist/index.es.js",
+    "repository": "https://github.com/devx-connacx/cx-styled-comps.git",
+    "license": "MIT",
+    "dependencies": {
+        "@material-ui/core": "4.11.2",
+        "react": "17.0.1",
+        "react-dom": "17.0.1"
+    },
+    "scripts": {
+        "build": "rollup -c"
+    },
+    "devDependencies": {
+        "@rollup/plugin-commonjs": "^17.0.0",
+        "@rollup/plugin-node-resolve": "^11.0.1",
+        "@types/node": "14.14.6",
+        "@types/react": "17.0.0",
+        "@types/react-dom": "17.0.0",
+        "lerna": "^3.22.1",
+        "rollup": "^2.35.1",
+        "rollup-plugin-peer-deps-external": "^2.2.4",
+        "rollup-plugin-typescript2": "^0.29.0",
+        "typescript": "4.0.5"
+    }
+}
