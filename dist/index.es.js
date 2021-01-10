@@ -9980,9 +9980,16 @@ var Button$1 = withStyles$1(styles$2, {
 const CxStyButton = () => {
     return React.createElement(Button$1, null, "This is a button!!!");
 };
-const CxStyBtnPrimary = Ye(Button$1) `
-    variant: contained;
-    color: primary;
+const CxStyButtonMat = Ye(Button$1) `
+    text-transform: none;
+    font-weight: 700;
+`;
+const CxStyActionButton = Ye(({ ...props }) => (React.createElement(CxStyButtonMat, Object.assign({ variant: "contained" }, props)))) `
+    background: #78B0FA;
+    color: #FFFFFF;
+    &:hover {
+        background-color: #9BC2F7;
+    }
 `;
 // export const CxStyButton = styled.button`
 //     text-transform: none;
@@ -10021,5 +10028,5 @@ const CxStyBtnPrimary = Ye(Button$1) `
 //         hasBorder ? theme.color.secondary : 'transparent'};
 // `;
 
-export { CxStyBtnPrimary, CxStyButton };
+export { CxStyActionButton, CxStyButton };
 //# sourceMappingURL=index.es.js.map
