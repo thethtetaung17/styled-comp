@@ -9,10 +9,10 @@ const cjsOptions = {
     include: 'node_modules/**',
     namedExports: {
         'react': ['createElement', 'Component' ],
-        // 'node_modules/#material-ui/core/index.js': [
-        //     'Button',
-        //     'ButtonBase'
-        // ],
+        'node_modules/@material-ui/core/index.js': [
+            'Button',
+            'ButtonBase'
+        ],
         // 'node_modules/#material-ui/styles/index.js': [
         //     'createGenerateClassName',
         //     'createMuiTheme',
